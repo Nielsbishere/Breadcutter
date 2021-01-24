@@ -115,6 +115,7 @@ static bool isOn = false;
 
 static int potentio = A0;
 static NEMA17 tray = NEMA17{ A1, A2, A3, A4, A5 };
+static int knifeBit = 0;
 
 void setup() { 
    tray.init(FULL_STEP, false);
