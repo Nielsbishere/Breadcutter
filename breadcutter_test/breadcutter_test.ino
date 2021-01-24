@@ -119,6 +119,7 @@ static int knifeBit = 2;
 
 void setup() { 
    tray.init(FULL_STEP, false);
+   pinMode(knifeBit, OUTPUT);
    lastPotentio = analogRead(potentio);
 }
 
